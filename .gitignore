@@ -1,0 +1,18 @@
+# Ignore compiled C binaries
+statistics_c
+*.o
+
+# Ignore OCaml build artifacts
+statistics_ocaml
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.out
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore editor/OS files
+.DS_Store 
